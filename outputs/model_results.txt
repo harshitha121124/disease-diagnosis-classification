@@ -1,0 +1,15 @@
+Heart Disease
+--------------
+Logistic Regression: 85.42%
+
+Diabetes
+--------------
+Random Forest: 88.31%
+
+Liver Disease
+--------------
+Logistic Regression (Balanced): 65.79%
+
+Breast Cancer
+--------------
+Logistic Regression: 97.37%
