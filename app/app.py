@@ -89,7 +89,24 @@ elif disease == "Heart Disease":
 
     age = st.number_input("Age", min_value=1, value=45)
     sex = st.selectbox("Sex", ["Female", "Male"])
-    cp = st.number_input("Chest Pain Type (cp)", min_value=0, value=0)
+    cp_option = st.selectbox(
+    "Chest Pain Type",
+    [
+        "Typical Angina",
+        "Atypical Angina",
+        "Non-Anginal Pain",
+        "Asymptomatic"
+    ]
+    )
+
+    cp_mapping = {
+    "Typical Angina": 0,
+    "Atypical Angina": 1,
+    "Non-Anginal Pain": 2,
+    "Asymptomatic": 3
+    }
+
+    cp = cp_mapping[cp_option]
     trestbps = st.number_input("Resting Blood Pressure", min_value=0, value=120)
     chol = st.number_input("Cholesterol", min_value=0, value=200)
     fbs = st.number_input("Fasting Blood Sugar (0/1)", min_value=0, max_value=1, value=0)
