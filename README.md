@@ -89,6 +89,23 @@ The Streamlit dashboard allows users to:
 * View model performance metrics
 * Explore healthcare analytics
 
+## Dashboard Preview
+
+### Home Page
+![Home](assets/home.png)
+
+### Heart Disease Prediction
+![Heart](assets/heart.png)
+
+### Diabetes Prediction
+![Diabetes](assets/diabetes.png)
+
+### Liver Disease Prediction
+![Liver](assets/liver.png)
+
+### Breast Cancer Dashboard
+![Breast Cancer](assets/breast_cancer.png)
+
 ## Results
 
 * Developed machine learning models for four healthcare datasets.
